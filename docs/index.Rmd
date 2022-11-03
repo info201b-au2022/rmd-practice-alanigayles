@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Covid Report
-I write a paragraph here. I will highlight that the total number of US cases is `r get_total_cases()`. And, the total number of US deaths is `r get_total_deaths()`. 
+In my covid report, I reported a total number of 97, 363,366 cases. I also reported a total number of 1,067,450 deaths. In my analysis.R file I would change the return line to look similar to the return line of the total number of cases function. 
 
 (**Note**: Why are there no commas in the *total number of US deaths* ? Can you change `analysis.R` file so that the number is commented with commas?)
 
